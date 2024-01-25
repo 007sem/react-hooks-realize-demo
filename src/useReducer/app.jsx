@@ -1,7 +1,5 @@
 import { root, useReducer } from "./react";
 
-let t = null;
-
 function App() {
 	function countReducer(count, { type, payload }) {
 		switch (type) {
